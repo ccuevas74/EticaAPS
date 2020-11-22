@@ -10,7 +10,7 @@ El equipo de Frontend ha creado los siguientes secciones.
 |      `index.html`    | Pagina principal: consta de una seccion para proyectar los proyectos realizados **a rellenar**, un apartado donde viene indicado quienes sois, **a rellenar**, distintas noticias que se irán actualizando y rellenando conforme se desee **a rellenar** |
 |   `historia.html`    | En esta pagina se detallarán los antecedentes y el contexto. Es decir, es una pagina donde viene el groso de información sobre quienes sois **a rellenar**|
 |   `colabora.html`    | En esta pagina se mostrará un formulario para usuarios interesados en realizar donaciones **a rellenar en colaboracion con el *backend***|
-|  `informacion.html`  | En esta pagina se mostrará un formulario para usuarios interesados en recibir información sobre el proyecto Flora.  **a rellenar **|
+|  `informacion.html`  | En esta pagina se mostrará un formulario para usuarios interesados en recibir información sobre el proyecto Flora.  **a rellenar**|
 
 Todas estas paginas web tienen la misma estructura:
 ```
