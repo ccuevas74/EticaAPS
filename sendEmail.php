@@ -29,8 +29,10 @@
         $mail->CharSet = "UTF-8"; // Activacion caracteres utf8 
         $mail->setFrom($correoAPS,"DavidAPS"); // From: y FromName:
         $mail->addAddress($email); // Correo de destino
+        $mail->addEmbeddedImage('pics05.jpg','email-photo','picks05.jpg');
         $mail->Subject = ("$email ($asuntoCorreo)"); // Asunto del correo
         $mail->Body = "¡Hola, has sido registrado en la BBDD del Proyecto Flora APS!
+                       <img src=\"cid:email-photo\">
                        Presione sobre el siguiente enlace para activar su cuenta: " . $url_activacion;
 
         if(!$mail->send())
