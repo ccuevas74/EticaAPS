@@ -13,7 +13,7 @@
 
         $correoAPS = "proyectoiitvaps@gmail.com";
         $asuntoCorreo = "Proyecto APS FLORA";
-        $url_activacion = "https://localhost/APS/validation.php?hash=".$user_hash."&flag=true";
+        $url_activacion = "http://localhost/APS/validation.php?hash=".$user_hash."&flag=true";
 
         // SMTP
         $mail->isSMTP();
@@ -32,7 +32,7 @@
         $mail->addEmbeddedImage('pics05.jpg','email-photo','picks05.jpg');
         $mail->Subject = ("$email ($asuntoCorreo)"); // Asunto del correo
         $mail->Body = "¡Hola, has sido registrado en la BBDD del Proyecto Flora APS!
-                       <img src=\"cid:email-photo\">
+                       <br><br><img src=\"cid:email-photo\"<br><br> 
                        Presione sobre el siguiente enlace para activar su cuenta: " . $url_activacion;
 
         if(!$mail->send())
