@@ -82,7 +82,12 @@
 	p, ul, ol, dl, table
 	{
 		margin-bottom: 1em;
+		font-size: 20px;
 	}
+
+
+	
+
 
 	header
 	{
@@ -312,7 +317,8 @@
 			display: inline-block;
 			margin-top: 0.5em;
 			padding: 0.50em 1.5em;
-			background: #e95d3c;
+			/*background: #e95d3c;*/
+			background: #006341;
 			border-radius: 6px;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -328,7 +334,8 @@
 
 			.button:hover
 			{
-				background: #de3d27;
+				/*background: #de3d27;*/
+				background: #115740;
 				color: #FFF !important;
 			}
 
@@ -832,7 +839,8 @@
 
 			#nav li.active a
 			{
-				background: #e95d3c;
+				/*background: #e95d3c;*/
+				background: #006341;
 				border-radius: 5px;
 				color: #FFF;
 			}
@@ -851,6 +859,24 @@
 		position: relative;
 		padding: 12em 0em;
 		background: url(../images/banner.jpeg) no-repeat center;
+		background-size: cover;
+		color: #fff;
+	}
+
+	#banner2
+	{
+		position: relative;
+		padding: 15em 0em;
+		background: url(../images/banner2.jpeg) no-repeat center;
+		background-size: cover;
+		color: #fff;
+	}
+
+	#banner3
+	{
+		position: relative;
+		padding: 15em 0em;
+		background: url(../images/banner3.jpeg) no-repeat center;
 		background-size: cover;
 		color: #fff;
 	}
@@ -915,6 +941,29 @@
 		text-align: center;
 		color: rgba(255,255,255,.4);
 	}
+
+	#copyright2
+	{
+		position: relative;
+		padding: 3em 0em;
+		border-top: 2px solid #115740;
+		letter-spacing: 1px;
+		text-align: center;
+		color: rgba(255,255,255,.4);
+	}
+
+	
+	#copyright3
+	{
+		position: relative;
+		padding: 1em 0em;
+		border-top: 2px solid #115740;
+		letter-spacing: 1px;
+		text-align: center;
+		color: rgba(255,255,255,.4);
+	}
+
+
 	
 	#copyright .container
 	{

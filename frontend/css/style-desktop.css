@@ -19,12 +19,12 @@
 
 	#banner
 	{
-		padding: 6em 0em;
+		padding: 10em 0em;
 	}
 
 	.homepage #banner
 	{
-		padding: 12em 0em;
+		padding: 18em 0em;
 	}
 	
 /*********************************************************************************/
@@ -50,7 +50,7 @@
 	
 	.homepage #main
 	{
-		margin-top: 6em;
+		margin-top: 1.5em;
 		padding-top: 6em;
 	}
 
