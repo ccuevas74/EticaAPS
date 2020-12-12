@@ -1,13 +1,24 @@
-﻿<!DOCTYPE HTML>
+﻿<!--===================================================================================================================================================================-->
+<!DOCTYPE HTML>
 <html>
+
 	<!--============================================================================================================================-->
+	<!-- PAGE HEAD-->
 	<head>
+		<!--=======================================================================-->
 		<title>PROYECTO FLORA</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
@@ -16,6 +27,29 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
 		</noscript>
+		<link rel="icon" href="images/icon.png">
+		<!--=======================================================================-->
+		<!--=======================================================================-->
+		<style>
+            .collapsible {
+              background-color: #777;
+              color: white;
+              cursor: pointer;
+              padding: 18px;
+              width: 100%;
+              border: none;
+              text-align: left;
+              outline: none;
+              font-size: 15px;
+            }
+            .content {
+              padding: 0 18px;
+              display: none;
+              overflow: hidden;
+              background-color: #f1f1f1;
+            }
+		 </style>
+		 <!--=======================================================================-->
 	</head>
 	<!--============================================================================================================================-->
 
@@ -23,92 +57,101 @@
 	<body class="right-sidebar">
 	
 	<!--============================================================================================-->
-	<!-- Header -->
+	<!-- HEADER -->
 	<div id="header">
 		<div class="container">
-
+			<!--=======================================================================-->
 			<!-- Logo -->
 			<div id="logo">
 				<h1><a href="#">PROYECTO FLORA</a></h1>
 			</div>
-
-			<!-- Nav -->
+			<!--=======================================================================-->
+			<!--=======================================================================-->
+			<!-- Navegation -->
 			<nav id="nav">
 				<ul>
 					<li><a href="index.html">Inicio</a></li>
 					<li><a href="historia.html">Nuestra historia</a></li>
-					<li class="active"><a href="colabora.html">Únete</a></li>
+					<li class="active"><a href="colabora.html">Colabora</a></li>
 				</ul>
 			</nav>
-
+			<!--=======================================================================-->
 		</div>
 	</div>
-	<!-- Header -->
 	<!--============================================================================================-->
 
 	<!--============================================================================================-->
-	<!-- Banner -->
+	<!-- BANNER -->
 	<div id="banner2">
 		<div class="container">
 		</div>
 	</div>
-	<!-- /Banner -->
 	<!--============================================================================================-->
 
 	<!--============================================================================================-->
-	<!-- Main -->
+	<!-- MAIN CONTENT -->
 	<div id="page">
-		<!--============================================-->
-		<!-- Main -->
+		<!--=======================================================================-->
 		<div id="main" class="container">
 			<div class="row">
+				<!--=============================================================-->
 				<div class="9u">
 					<!--============================================-->
 					<section>
+						<!--===========================-->
 						<header>
 						
 							<h2>Colabora con nuestro proyecto</h2>
 							<span class="byline">Tu aportacion significa mucho para nosotros</span>
 						</header>
+						<!--===========================-->
+						
+						<!--===========================-->
 						<section>
-							<form action="" method="">
-	
-								<!-- Campo para introducir el nombre -->
-								<p>Nombre:</p>
-								<input type="text" name="user" placeholder="Introduzca su nombre">
-	
-								<!-- Campo para el apellidos -->
-								<p>Apellidos:</p>
-								<input type="text" name="lastname" placeholder="Introduzca sus apellidos">
-	
-								<!-- Campo para el correo -->
-								<p>Correo electrónico:</p>
-								<input type="email" name="email" placeholder="Introduzca su correo">
-	
-								<!-- Campo para la donaciones -->
-								<p>CAMPO NECESARIO 1</p>
-								<input type="text" name="campo1" placeholder="CAMPO NECESARIO 1">
-								
-								<!-- Boton para enviar el formulario -->
-								<p>Enviar:</p>
-								<button class="" type="submit">Enviar</button>
-								
-							</form>
-					</section>
-					<!--============================================-->
+							<button type="button" class="btn btn-success">PAYPAL</button>
+							<div class="content">
+								<br>
+								<p>Enlace a paypal</p>
+							</div>
+						</section>
+						<!--===========================-->
 
-					<!--============================================-->
-					<!-- Formulario-->
+						<!--===========================-->
+						<section>
+							<button type="button" class="btn btn-success">Transferencia Bancaria</button>
+							<div class="content">
+								<br>
+								<p><strong>Información para Transferencia Bancaria</strong></p>
+								<br>
+								<p>Fundación Salvador Soler - número de Cuenta Corriente ES12 2038 1119 0460 0068 1175</p>
+								<p>Entreculturas - Pendiente por confirmar</p>
+							</div>
+						</section>
+						<!--===========================-->
 
+						<!--===========================-->
+						<section>
+							<button type="button" class="btn btn-success">BIZUM</button>
+							<div class="content">
+								<br>
+								<p><strong>Aportación por Bizum</strong></p>
+								<br>
+								<p>Teléfono 667-680-897</p>
+							</div>
+						</section>
+						<!--===========================-->
 					</section>
 					<!--============================================-->
 
 					<!--============================================-->
 					<section>
+						<!--===========================-->
 						<header>
 							<h2>RECIBE Información</h2>
 							<span class="byline">Rellene el formulario para obtener información de nuestro proyecto</span>
 						</header>
+						<!--===========================-->
+						<!--===========================-->
 						<section>
 							<form action="" method="">
 
@@ -128,104 +171,106 @@
 								<p>Enviar:</p>
 								<button class="" type="submit">Enviar</button>
 							</form>
+						</section>
+						<!--===========================-->
 					</section>
 					<!--============================================-->
 				</div>
+				<!--=============================================================-->
+				<!--=============================================================-->
 				<div class="3u">
 					<section class="sidebar">
 						<img src="images/help.jpg" alt="">
 					</section>
 					<section></section>
 				</div>
+				<!--=============================================================-->
+				<!--=============================================================-->
 				<div class="3u">
 					<section></section>
 					<section class="sidebar">
 						<img src="images/help2.jpg" alt="">
 					</section>
 				</div>
+				<!--=============================================================-->
 			</div>
 		</div>
-		<!-- Main -->
-		<!--============================================-->
+		<!--=======================================================================-->
 
 	</div>
-	<!-- /Main -->
-	<!--============================================================================================-->
-
-	<!--============================================================================================-->
-	<!-- Featured -->
-	<div id="featured">
-		<div class="container">
-
-			<div class="divider"></div>
-		</div>
-	</div>
-	<!-- /Featured -->
 	<!--============================================================================================-->
 
 	<!--============================================================================================-->
 	<!-- Footer -->
 	<div id="footer">
 		<div class="container">
+			<br>
+			<br>
 			<div class="row">
+				<!--=======================================================================-->
 				<div class="3u">
 					<section>
 						<h2>VOLUNTARIADO EN FAMILIA</h2>
 						<div class="balloon">
-							<blockquote>&ldquo;&nbsp;&nbsp;Ayudamos al desarrollo sostenible de las comunidades indígenas brasileñas,adaptándonos a sus necesidades y valores.&nbsp;&nbsp;&rdquo;<br>
+							<blockquote>
+								&ldquo;&nbsp;&nbsp;Ayudamos al desarrollo sostenible de las comunidades "riberiñas" de la amazonia.&nbsp;&nbsp;&rdquo;<br>
 								<br>
-							
+
 						</div>
 						<a href="historia.html" class="button">Más información</a>
 						<div class="ballon-bgbtm">&nbsp;</div>
 					</section>
 				</div>
+				<!--=======================================================================-->
+				<!--=======================================================================-->
 				<div class="3u">
 					<section>
 						<h2>COLABORA CON EL PROYECTO</h2>
 						<ul class="default">
 							<li>
-								<h3>Boletín Informativo</h3>
-								<p>Obten información.</p>
-								<a href="informacion.html" class="button">Más información</a>
-							</li>
-							<li>
-								<h3>Donaciones</h3>
-								<p>donativo.</p>
-								<a href="colabora.html" class="button">Más información</a>
+								<h3>Tu aportación significa mucho para nosotros</h3>
+								<p>Aporta tu granito de arena.</p>
 							</li>
 						</ul>
+						<a href="colabora.html" class="button">Más información</a>
+						<div class="ballon-bgbtm">&nbsp;</div>
 					</section>
 				</div>
+				<!--=======================================================================-->
+				<!--=======================================================================-->
 				<div class="3u">
 					<section>
 						<h2>REDES SOCIALES</h2>
 						<p>Siguenos en redes sociales.</p>
 						<ul class="style5">
-							<li><a href="#"><img src="images/insta.png" alt=""></a></li>
-							<li><a href="#"><img src="images/facebook.png" alt=""></a></li>
-							<li><a href="#"><img src="images/twitter.png" alt=""></a></li>
-
+							<center>
+							<a href="#"><img src="images/insta.png" alt=""></a>
+							<br>
+							<a href="#"><img src="images/facebook.png" alt=""></a>
+							<br>
+							<a href="#"><img src="images/twitter.png" alt=""></a>
+							</center>
 						</ul>
 					</section>
 				</div>
+				<!--=======================================================================-->
+				<!--=======================================================================-->
 				<div class="3u">
 					<section>
 						<h2>COLABORADORES</h2>
 						<ul class="styleGrey">
-							<li><a href="#">[Nombre colaborador]</a></li>
-							<li><a href="#">[Nombre colaborador]</a></li>
-							<li><a href="#">[Nombre colaborador]</a></li>
-							<li><a href="#">[Nombre colaborador]</a></li>
-							<li><a href="#">[Nombre colaborador]</a></li>
+							<li><a href="https://unmundosalvadorsoler.org/">Fundación Salvador Soler</a></li>
+							<li><a href="https://www.entreculturas.org/es/home">Entreculturas</a></li>
+							<li><a href="https://www.procladebetica.org/">Proclade Bética</a></li>
+							<li><a href="https://www.uloyola.es/">Universidad Loyola</a></li>
 						</ul>
 					</section>
 				</div>
+				<!--=======================================================================-->
 			</div>
 		</div>
 	</div>
-<!-- /Footer -->
-<!--============================================================================================-->
+	<!--============================================================================================-->
 
 	<!--============================================================================================-->
 	<!-- Copyright -->
@@ -233,7 +278,28 @@
 			Pie de pagina y copyright
 		</div>
 	<!--============================================================================================-->
+	
+	<!--============================================================================================-->
+	<script>
+		var coll = document.getElementsByClassName("btn btn-success");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.display === "block") {
+			  content.style.display = "none";
+			} else {
+			  content.style.display = "block";
+			}
+		  });
+		}
+	</script>
+	<!--============================================================================================-->
 
 	</body>
 	<!--============================================================================================================================-->
+
 </html>
+<!--===================================================================================================================================================================-->
